@@ -176,7 +176,8 @@ public:
 	void print()
 	{
 		auto it = memory.begin();
-		int q = 0, count;
+		int q = 0;
+		int count = 0;
 		char ch;
 		cout << "|";
 		while (it != memory.end())
