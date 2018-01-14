@@ -7,7 +7,7 @@
 
 using namespace std;
 
-int getDigits(int n)
+int getDigits(int n)//used in print method
 {
 	int res = 0;
 	if (n == 0)
